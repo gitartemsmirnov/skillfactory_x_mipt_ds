@@ -41,4 +41,5 @@
 Ссылка на датасет с резюме на Dropbox: [dst-3.0_16_1_hh_database.csv](https://www.dropbox.com/scl/fi/zfs6kd4fzmi2f4cgm2lgk/dst-3.0_16_1_hh_database.csv?rlkey=4ormzwm3d3v0yx4odk87zvqc0&dl=0)  455.4 MB
 
 Ссылка на данные с курсами валют по отношению к рублю на Dropbox: [ExchangeRates.csv](https://www.dropbox.com/scl/fi/udumurvj37qzhle5vjsay/ExchangeRates.csv?rlkey=72vyf1egf89gqlz22w12noqad&dl=0) 197.6 KB
+
 :arrow_up:[к оглавлению](../project_1/README.md#Оглавление)
