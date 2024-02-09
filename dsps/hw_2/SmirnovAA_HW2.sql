@@ -3,6 +3,14 @@
 SELECT DISTINCT brand
 FROM "transaction" t
 WHERE standard_cost > 1500;
+/* Если речь идет о брендах с минимальной стандартной стоимостью
+выше 1500 долларов, запрос выглядит так:
+SELECT DISTINCT brand
+FROM "transaction" t
+GROUP BY brand
+HAVING MIN(standard_cost) > 1500
+*/
+
 
 /* Выводим все подтвержденные транзакции за период 
  * '2017-04-01' по '2017-04-09' включительно */
