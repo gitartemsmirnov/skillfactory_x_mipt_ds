@@ -3,13 +3,6 @@
 SELECT DISTINCT brand
 FROM "transaction" t
 WHERE standard_cost > 1500;
-/* Если речь идет о брендах с минимальной стандартной стоимостью
-выше 1500 долларов, запрос выглядит так:
-SELECT DISTINCT brand
-FROM "transaction" t
-GROUP BY brand
-HAVING MIN(standard_cost) > 1500
-*/
 
 
 /* Выводим все подтвержденные транзакции за период 
